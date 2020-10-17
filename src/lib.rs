@@ -2,6 +2,9 @@ use yaml_rust::Yaml;
 use abstract_pipeline_runner::*;
 use std::collections::HashMap;
 
+pub mod parsers;
+
+
 #[derive(PartialEq, Copy, Clone, Debug)]
 pub enum ParserNodeType {
     ParserNodeTypeSeries,
